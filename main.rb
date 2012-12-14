@@ -2,7 +2,7 @@ require 'sinatra'
 require 'json'
 
 get '/' do
-  'Making the invisible visible'
+  'Making the invisible visible and sharing it'
 end
 
 get '/game/:id' do 
