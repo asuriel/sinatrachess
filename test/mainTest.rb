@@ -15,7 +15,7 @@ class MyAppTest < Test::Unit::TestCase
   end
 
   def test_with_params
-    get '/game', :id => '1'
+    get '/game/1'
     assert_equal '{"key1":"Game id:1","key2":"Robert wins"}', last_response.body
   end
 
